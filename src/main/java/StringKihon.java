@@ -6,27 +6,27 @@ public class StringKihon extends StringKihonBase {
 
     @Override
     protected String convertToUpperCase(String data) {
-        throw new UnsupportedOperationException();
+        return data.toUpperCase();
     }
 
     @Override
     protected String convertToLowerCase(String data) {
-        throw new UnsupportedOperationException();
+        return data.toLowerCase();
     }
 
     @Override
-    protected String Combine_Parts_Of_A_Name(String firstName, String middleName, String lastName) {
-        throw new UnsupportedOperationException();
+    protected String Combine_Parts_Of_A_Name(String data) {
+        return first + " " + middle name + " " + lastName();
     }
 
     @Override
     protected String Combine_Two_Strings(String a, String b) {
-        throw new UnsupportedOperationException();
+        return a + b;
     }
 
     @Override
     protected int Determine_The_Length_Of_A_String(String data) {
-        throw new UnsupportedOperationException();
+        int Determine_The_Length_Of_A_String();
     }
 
     @Override
@@ -36,17 +36,17 @@ public class StringKihon extends StringKihonBase {
 
     @Override
     protected String Remove_All_Trailing_Whitespace(String data) {
-        throw new UnsupportedOperationException();
+
+        return data.trim();
     }
 
     @Override
     protected String[] Split_A_String_Into_An_Array(String input, char divider) {
-        throw new UnsupportedOperationException();
+        return input.split((new String(divider));
     }
 
     @Override
-    protected String Join_An_Array_Into_A_String(String[] input, String divider) {
-        throw new UnsupportedOperationException();
+    protected String Join_An_Array_Into_A_String(String[] input,throw new UnsupportedOperationException();
     }
 
     @Override
