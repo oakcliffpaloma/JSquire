@@ -6,7 +6,7 @@ import java.util.Collection;
 public class ControlStructuresKihon extends ControlStructuresKihonBase {
     @Override
     protected void callHitOnAIfValIsTrueElseCallHitOnB(boolean val, Target a, Target b) {
-        throw new UnsupportedOperationException();
+        return private void.;
     }
 
     @Override
